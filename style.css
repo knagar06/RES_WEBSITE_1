@@ -311,6 +311,8 @@ width: 100%;
     color: var(--pink);
 }
 
+
+
 .review  .box-container{
     display: flex;
     align-items: center;
@@ -367,7 +369,66 @@ width: 100%;
     
 }
 
+.pricing .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
+  
+.pricing .box-container .box{
+    flex:1 1 27rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+    border-radius: .5rem;
+    padding-bottom: 3rem;
+}
+
+.pricing .box-container .box:nth-child(2),
+.pricing .box-container .box:hover{
+    border:.2rem solid var(--pink);
+}
+
+.pricing .box-container .box .title{
+    color: var(--pink);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.pricing .box-container .box .price{
+    font-size: 4rem;
+    color: var(--pink);
+    padding: 1rem 0;
+}
+
+.pricing .box-container .box .price span{
+    font-size: 2rem;
+
+}
+.pricing .box-container .box ul{
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.pricing .box-container .box ul li{
+    font-size: 1.7rem;
+    color: #666;
+    padding: .5rem 0;
+}
+
+
+.pricing .box-container .box ul li .fa-check{
+    color: lightgreen;
+}
+
+.pricing .box-container .box ul li .fa-times{
+    color: tomato;
+}
 
 
 
